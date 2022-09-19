@@ -1,0 +1,273 @@
+/************************************* TAG SELECTORS ***************************************/
+
+body {
+  background-color: #FEFBF3;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1rem;
+}
+
+a{
+  color:#11999E;
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #9D9D9D;
+  border-width: 5px;
+  width: 5%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  /* color: black; */
+  /* width: 10%; */
+  /* margin: 0 auto 0 auto; */
+  margin: 0;
+  /* 16px = 100% = 1em */
+  font-size: 4rem ;
+  color: #E9DAC1;
+  font-family: 'Sacramento', cursive;
+
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  color: #79B4B7;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  color: #79B4B7;
+}
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  color: #F8F0DF;
+
+}
+
+h5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  margin: 0;
+  color: #9D9D9D;
+}
+
+p{
+  margin: 0;
+  line-height: 2;
+}
+
+
+/* h1:hover{
+  color: #54BAB9;
+} */
+
+div{
+  background-color: #F4F9F9;
+  padding: 20px;
+}
+/************************************* CLASS SELECTORS ***************************************/
+.contact{
+  background-color: #9ED2C6;
+}
+
+.quote{
+  color: #9D9D9D;
+}
+
+.left-cloud{
+  position: absolute;
+  left: 15%;
+}
+
+.right-cloud{
+  position: absolute;
+  right: 15%;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 30px;
+  right: 40%;
+}
+
+.top-container{
+  position: relative;
+  padding-top: 90px;
+  margin: auto;
+}
+
+.skill-row{
+  width: 60%;
+  margin: auto;
+  line-height: 2;
+  text-align: left;
+  background-color: #F1EFDC;
+}
+
+.educations-row{
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+  text-align: left;
+  background-color: #FEFBF3;
+}
+
+.experiences-row{
+  width: 65%;
+  margin: auto;
+  line-height: 2;
+  text-align: left;
+  background-color:#F1EFDC ;
+}
+
+.snow{
+  background-color:#F1EFDC ;
+  padding: 0;
+}
+
+.volunteering-row{
+  width: 65%;
+  margin: auto;
+  line-height: 2;
+  text-align: left;
+  background-color: #FEFBF3;
+}
+.web-img{
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+
+.DB-img{
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.github-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.Software-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.bgu-img, .eilon-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.isef-img, .C4I-img, .Aristo-img{
+  width: 10%;
+  float: right;
+  margin-left: 30px;
+}
+
+.isef2-img, .shecodes-img, .akim-img, .Immigrant-img{
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.profile-description{
+  text-align: center;
+  margin: auto;
+}
+
+.skill-db-row{
+  width: 15%;
+  margin-left: 65%;
+  line-height: 2;
+  text-align: left;
+  background-color:#F1EFDC ;
+}
+
+.skill-General-row{
+  width: 25%;
+  margin-left: 45%;
+  line-height: 2;
+  text-align: left;
+  background-color:#F1EFDC ;
+}
+
+.nicol-profile-img{
+  width: 12%;
+  height: 5%;
+  /* float: left; */
+  margin-bottom: 20px;
+}
+
+.bottom-container{
+  line-height: 2;
+  background-color: #9D9D9D;
+  color: #EAF6F6;
+  padding: 20px 0 0 0;
+}
+
+.middle-container{
+  background-color: #FEFBF3;
+  line-height: 2;
+  padding: 0;
+}
+
+.copyright{
+  font-size: 0.75;
+  padding: 20px 0 0 0;
+}
+
+.myButton {
+  margin-top: 20px;
+	box-shadow:inset 0px 0px 3px 2px #9ED2C6;
+	background:linear-gradient(to bottom, #9ED2C6 5%, #9ED2C6 100%);
+	background-color:#9ED2C6;
+	border-radius:6px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#7892c2;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:19px;
+	padding:3px 17px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+  color: #ffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/************************************* ID SELECTORS ***************************************/
+/*
+#heading{
+  color: black;
+} */
