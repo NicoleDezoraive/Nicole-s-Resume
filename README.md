@@ -1,2 +1,2 @@
-# Nicoles-Resume
-My resume
+# Nicole's Resume
+
