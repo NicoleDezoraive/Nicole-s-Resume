@@ -7,13 +7,11 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="contact">
   <h1>My Contact Details:</h1>
   <p><b>Call:</b> +972-(0)54-6712782</p>
   <p><b>Email:</b> dezoraivenicole@gmail.com</p>
-
   <hr>
-
   <form class="contact" action="mailto:dezoraivenicole@gmail.com" method="post" enctype="text/plain">
     <label for="">Your First Name:</label>
     <input type="text" name="yourFirstName" value="">
@@ -28,11 +26,15 @@
     <br><br>
     <label for="">Your Message:</label><br>
     <textarea name="yourMessage" rows="10" cols="100"></textarea>
-    <br><br>
-    <input type="submit" name="submit" value="SEND">
+    <br>
+    <input class="myButton" type="submit" name="submit" value="SEND">
   </form>
   <hr>
-  <p>&copy; 2022 by Nicole Dezoraive</p>
+  <div class="bottom-container">
+    <a class="btn" href="index.html">Home Page</a>
+    <p class="copyright">&copy; 2022 by Nicole Dezoraive.</p>
+  </div>
+
 </body>
 
 </html>
